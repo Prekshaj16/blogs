@@ -6,7 +6,7 @@ const postRoutes = require("./routes/post.routes")
 
 
 const app = express();
-const corsOrigin = process.env.CORS_ORIGIN || 'http://localhost:5173' || 'http://localhost:5173'   ;
+const corsOrigin = process.env.CORS_ORIGIN || 'http://localhost:5173' ;
 app.use(cors({
   origin: corsOrigin,
   credentials: true
