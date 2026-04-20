@@ -1,4 +1,4 @@
-# 📝 MERN Blog Application
+# 📝 MERN Mini Blog Platform
 
 A full-stack blog application where users can login and perform CRUD (Create, Read, Update, Delete) operations on blog posts. The app uses JWT-based authentication to secure user actions and ensure only logged-in users can manage posts.
 
