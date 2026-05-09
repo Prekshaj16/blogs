@@ -1,40 +1,16 @@
-# 📝 MERN Blog Application
+# React + Vite
 
-A full-stack blog application where users can login and perform CRUD (Create, Read, Update, Delete) operations on blog posts. The app uses JWT-based authentication to secure user actions and ensure only logged-in users can manage posts.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
----
+Currently, two official plugins are available:
 
-## 🛠️ Tech Stack
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
 
-**Frontend:**
-- React.js
-- Tailwind CSS
+## React Compiler
 
-**Backend:**
-- Node.js
-- Express.js
-- MongoDB (Mongoose)
-- JWT Authentication
-- bcrypt.js
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
----
+## Expanding the ESLint configuration
 
-## ⚙️ Run the Project
-
-### Frontend
-cd frontend
-npm run dev
-
-### Backend
-cd backend
-node server.js
-
-## 🔑 Demo Credentials (For Testing)
-
-Use the following accounts to log in and test the application:
-
-- Email: preksha@gmail.com | Password: user@123  
-- Email: ravix@gmail.com | Password: user@123  
-- Email: neha77@gmail.com | Password: user@123  
-
-> These credentials are only for testing CRUD functionality.
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
