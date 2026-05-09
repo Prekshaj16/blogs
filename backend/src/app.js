@@ -10,7 +10,7 @@ const corsOrigin = process.env.CORS_ORIGIN || 'http://localhost:5173' || 'http:/
 // After (correct)
 app.use(cors({
   origin: [
-    "https://blogs-six-rouge.vercel.app",
+    "https://blogs-1-zj50.onrender.com",
     "http://localhost:5173"  // keep for local dev
   ],
   credentials: true  // include if you use cookies/sessions
